@@ -1,14 +1,1 @@
-still got this JSON error
-
-{
-	"resource": "user_storage:settings.json",
-	"owner": "user_storage:settings.json",
-	"code": 0,
-	"severity": 1,
-	"message": "Expected a JSON object, array or literal.",
-	"source": "jsonc",
-	"startLineNumber": 0,
-	"startColumn": 0,
-	"endLineNumber": 0,
-	"endColumn": 5
-}
+commit ahead of shutdown
