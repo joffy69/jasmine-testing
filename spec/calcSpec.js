@@ -8,7 +8,10 @@ describe("Calculator", function() {
 
         });
         it("should return an error if we don't apply two numbers", function(){
-            expect(addition("Hitchhikers", "Guide")).toBe("Error!");
+
+            spyOn(window, "alert");
+addition("Hitchhikers","Guide");
+expect(window.alert).toHaveBeenCalledWith("Error!");
         });
     });
 });
