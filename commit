@@ -1,1 +1,2 @@
-now getting 403 errors in preview
+clearing the cache causes the 403. restart and the code works, though the odd behavior that
+the cache clear was trying to stop remains
