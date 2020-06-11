@@ -1,7 +1,7 @@
 describe ("Drink", function(){
     describe ("Unborn", function(){
         it("should return sorry", function(){
-            expect(something(age)).toBe("Sorry. I can't tell what drink because that age is incorrect!");
+            expect(whatCanIDrink(age)).toBe("Sorry. I can't tell what drink because that age is incorrect!");
         });
     });
     describe ("Toddy", function(){
