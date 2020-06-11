@@ -1,6 +1,6 @@
 whatCanIDrink=function(age){
    
-switch (age) {
+/*switch (age) {
     case (age<0):
         return "Sorry. I can't tell what drink because that age is incorrect!";
         break;
@@ -19,6 +19,6 @@ switch (age) {
     default:
         return "Sorry, I can't tell what drink because that age is incorrect!";
         break;
-}
+}*/
 
 }
