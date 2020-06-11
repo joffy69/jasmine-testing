@@ -1,8 +1,9 @@
-describe("whatCanIDrink", function(){
-    it("should accept a number", function(){
-        var drink = new whatCanIDrink();
-        var age;
-        expect(drink.whatCanIDrink).toBe(age);
-        
+describe ("whatCID", function(){
+    
+    var whatcid=new whatCID(age);
+    describe ("unborn", function(){
+        it("should return sorry", function(){
+            expect(whatcid.age).toBe("Sorry");
+        });
     });
 });
